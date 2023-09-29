@@ -7,7 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/bg"
+
     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/my_primary"
+        android:alpha="0.7"
+         >
+
+
+
+    </RelativeLayout>
 
 </RelativeLayout>
 
