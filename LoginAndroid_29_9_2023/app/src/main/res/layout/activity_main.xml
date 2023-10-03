@@ -14,12 +14,38 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/my_primary"
-        android:alpha="0.7"
-         >
+        android:alpha="0.7">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="28dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/location_on"
 
-
-
+                ></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GO MAP"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:textsize="32sp"
+                android:textColor="@color/white"
+                >
+            </TextView>
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+        ></androidx.cardview.widget.CardView>
     </RelativeLayout>
+
+
 
 </RelativeLayout>
 
