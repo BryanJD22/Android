@@ -65,7 +65,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
-                android:drawableEnd="@drawable/done_icon"/>
+                android:drawableEnd="@drawable/done_icon"
+                android:id="@+id/edtEmail"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="30dp"/>
@@ -74,7 +75,8 @@
                 android:layout_height="wrap_content"
                 android:text="Password"
                 android:alpha="0.7"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:id="@+id/edtPassword "/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -105,7 +107,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:text="Login"
-                app:cornerRadius="32dp"/>
+                app:cornerRadius="32dp"
+                android:id="@+id/btnLogin"/>
+
             <View
                 android:layout_width="wrap_content"
                 android:layout_height="10dp"/>
